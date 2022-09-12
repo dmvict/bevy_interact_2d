@@ -1,8 +1,8 @@
 [package]
 name = "bevy_interact_2d"
-version = "0.5.1"
+version = "0.8.0"
 authors = ["Ansho Rei <anshorei@protonmail.com>"]
-edition = "2018"
+edition = "2021"
 license-file = "LICENSE"
 description = "A Bevy plugin for 2d mouse interactions"
 keywords = ["mouse", "2d", "gamedev", "bevy"]
@@ -15,6 +15,6 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.5"
-bevy_prototype_lyon = "0.3"
+bevy = "0.8"
+bevy_prototype_lyon = "0.6"
 spirv_headers = ">= 1.5.0, < 1.5.1"
