@@ -15,6 +15,6 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.8"
+bevy = { version = "0.8", default-features = false }
 bevy_prototype_lyon = "0.6"
 spirv_headers = ">= 1.5.0, < 1.5.1"
